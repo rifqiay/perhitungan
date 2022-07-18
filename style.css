@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 10px auto;
+}
+
+nav {
+  text-align: center;
+  font-size: 25px;
+}
+
+nav h1 {
+  margin-right: 470px;
+}
+
+.angka .index {
+  text-align: center;
+  padding: 30px;
+  font-size: 70px;
+}
+
+.container-reset {
+  margin-top: 20px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.container-plus-min {
+  margin-top: 50px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.tambah {
+  background-color: rgb(125, 219, 18);
+  box-sizing: border-box;
+  color: white;
+  font-size: 30px;
+  width: 100px;
+}
+
+.kurang {
+  background-color: rgb(240, 6, 6);
+  box-sizing: border-box;
+  color: white;
+  font-size: 30px;
+  width: 100px;
+}
+
+button:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
