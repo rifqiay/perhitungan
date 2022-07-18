@@ -6,12 +6,13 @@ let counter = 0;
 
 tambah.addEventListener("click", () => {
   counter++;
-  window.navigator.vibrate(1000);
+  window.navigator.vibrate(100);
   display.innerHTML = counter;
 });
 
 kurang.addEventListener("click", () => {
   counter--;
+  window.navigator.vibrate(100);
   display.innerHTML = counter;
 });
 
