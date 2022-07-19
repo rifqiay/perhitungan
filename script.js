@@ -11,9 +11,11 @@ tambah.addEventListener("click", () => {
 });
 
 kurang.addEventListener("click", () => {
-  counter--;
-  window.navigator.vibrate(100);
-  display.innerHTML = counter;
+  if (counter > 0) {
+    counter--;
+    window.navigator.vibrate(100);
+    display.innerHTML = counter;
+  }
 });
 
 reset.addEventListener("click", () => {
