@@ -39,7 +39,7 @@ button {
 
 .container-plus-min {
   margin-top: 50px;
-  height: 50vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -65,4 +65,38 @@ button {
 button:hover {
   opacity: 0.8;
   transition: 0.3s;
+}
+
+.setData {
+  position: relative;
+  top: 50px;
+  left: 3px;
+  box-sizing: border-box;
+}
+
+.setData input {
+  padding: 8px 12px;
+}
+
+.setData button {
+  margin-top: 5px;
+  /* background-color: salmon; */
+  cursor: pointer;
+}
+
+.container-display-target {
+  width: auto;
+  padding: 0 5px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.342);
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.display-target {
+  font-size: 30px;
 }
