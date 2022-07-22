@@ -24,7 +24,6 @@ const min = () => {
 
 tambah.addEventListener("click", () => {
   if (counter + 1 == setCounter) {
-    console.log(counter + 1);
     display.innerHTML = counter + 1;
     window.navigator.vibrate(5000);
     return;
