@@ -100,3 +100,9 @@ button:hover {
 .display-target {
   font-size: 30px;
 }
+
+@media screen and (min-width: 400px) {
+  .container-display-target {
+    margin-top: -30px;
+  }
+}
